@@ -24,7 +24,7 @@ sperocoin_x13_hash_module = Extension('sperocoin_x13_hash',
                                include_dirs=['.', './sha3'])
 
 setup (name = 'sperocoin-x13-hash',
-       version = '1.0.5',
+       version = '1.0.6',
        description = 'Bindings for proof of work used by x13',
        ext_modules = [sperocoin_x13_hash_module],
        url="https://github.com/DigitalCoin1/sperocoin-x13-hash")
