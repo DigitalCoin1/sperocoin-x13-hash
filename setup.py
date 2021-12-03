@@ -5,6 +5,7 @@ from distutils.core import setup, Extension
 sperocoin_x13_hash_module = Extension('sperocoin_x13_hash',
                                sources = ['x13module.c',
                                           'x13.c',
+					  'sha3/aes_helper.c',
 					  'sha3/blake.c',
 					  'sha3/bmw.c',
 					  'sha3/groestl.c',
